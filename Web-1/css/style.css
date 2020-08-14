@@ -270,16 +270,6 @@ body {
     display: none;
 }
 
-@media only screen and (max-width: 1000px) {
-    .navBarMobile {
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        background-color: white;
-        align-items: center;
-    }
-}
-
 .mobLogo {
     display: flex;
 
@@ -353,7 +343,14 @@ body {
 }
 
 @media only screen and (max-width: 360px) {
-    .float {float:none; width: 100%}
+    .navBarMobile {
+        width: 117%;
+        display: flex;
+        float: none;
+        justify-content: space-between;
+        background-color: white;
+    }
+    .content {float:none; width: 100%;}
     .navBar {
         display: none
     }
