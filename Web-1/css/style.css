@@ -14,12 +14,6 @@ body {
     justify-content: space-between;
 }
 
-@media only screen and (max-width: 1000px) {
-    .navBar {
-        display: none
-    }
-}
-
 .logoImg {
     width: 140px;
     padding: 20px;
@@ -84,6 +78,7 @@ body {
 
 .dropdownTecnologias:hover .tecnologiasContentAll {
     display: block;
+    padding-left: 12%;
 }
 
 .wrapTecnologias {
@@ -111,12 +106,13 @@ body {
     font-size: 18px;
     display: inline-block;
     width: auto;
+
 }
 
 .topicoLista {
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding-left: 20px;
 }
 
 .topicoLista li {
@@ -151,7 +147,7 @@ body {
     padding: 12px;
     box-sizing: border-box;
     border: 0px;
-    max-width: 155px;
+    min-width: 155px;
     min-height: 100px;
 }
 
@@ -354,4 +350,11 @@ body {
     color: white;
     border-color: white;
     border: 1px solid;
+}
+
+@media only screen and (max-width: 360px) {
+    .float {float:none; width: 100%}
+    .navBar {
+        display: none
+    }
 }
